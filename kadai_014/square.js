@@ -1,5 +1,6 @@
 const cal = (num) => {
-  console.log(num ** 2);
+  return num ** 2;
 }
 
-cal(10);
+const result = cal(10);
+console.log(result);
